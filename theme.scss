@@ -389,4 +389,9 @@ pre {
   #chat.time-seconds .time {
       font-size: 0.80em;
   }
+  #chat .messages,
+  #chat .msg:last-of-type {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
 }
