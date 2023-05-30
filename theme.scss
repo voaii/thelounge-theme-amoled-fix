@@ -94,7 +94,7 @@ form.message-search input::placeholder {
 #form {
   background: inherit;
   color: var(--body-color);
-  border-top: 1px solid var(--border-color);
+  border-top: 1px solid transparent;
 }
 
 .jump-to-input .input {
@@ -352,8 +352,8 @@ pre {
   background-color: rgba(255, 255, 255, 0.1);
 }
 #form {
-    background: #18191c;
-    border-top: 1px solid #212226;
+    background: #161719;
+    border-top: 1px solid transparent;
 }
 #form #input::placeholder {
   color: var(--placeholder-color)
@@ -374,7 +374,11 @@ body #chat .toggle-content .thumb {
 #chat .toggle-content img {
     max-height: 300px;
 } 
-
+@media(max-width: 680px) {
+  #chat {
+      margin-bottom: 25px;
+  }
+}
 @media (min-width: 480px) {
   #chat .from {
     width:90px;
