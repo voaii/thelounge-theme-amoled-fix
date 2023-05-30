@@ -376,7 +376,7 @@ body #chat .toggle-content .thumb {
 } 
 @media(max-width: 680px) {
   #chat {
-      margin-bottom: 25px;
+      margin-bottom: calc(30% - 100px);
   }
   #chat.time-12h .time,
   #chat.time-seconds .time {
@@ -400,6 +400,9 @@ body #chat .toggle-content .thumb {
   #app {
     padding-bottom: 30px;
   }
+  #app:focus-within {
+    padding-bottom: 0;
+  }
 }
 
 @mixin bottomSafeAreaFixBrowser {
@@ -408,6 +411,9 @@ body #chat .toggle-content .thumb {
   }
   #app {
     padding-bottom: 30px;
+  }
+  #app:focus-within {
+    padding-bottom: 0;
   }
 }
 
