@@ -388,12 +388,53 @@ body #chat .toggle-content .thumb {
       font-size: 0.80em;
   }
 }
-@media (max-width: 480px) {
-  #form {
-    padding-bottom:40px;
+@mixin bottomSafeAreaFix {
+
+  #app {
+    padding-bottom: 20px;
   }
-  #chat.time-12h .time,
-  #chat.time-seconds .time {
-      font-size: 0.80em;
+}
+
+@mixin bottomSafeAreaFixBrowser {
+  html, body, #viewport, #chat-container {
+    height: 100vh;
   }
+  #app {
+    padding-bottom: 20px;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (display-mode: standalone) {
+  @include bottomSafeAreaFix()
+}
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (display-mode: browser) {
+  @include bottomSafeAreaFixBrowser()
+}
+
+@media only screen and (min-device-width: 390px) and (max-device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (display-mode: standalone) {
+  @include bottomSafeAreaFix()
+}
+@media only screen and (min-device-width: 390px) and (max-device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (display-mode: browser) {
+  @include bottomSafeAreaFixBrowser()
+}
+
+@media only screen and (min-device-width : 414px) and (max-device-height : 896px) and (-webkit-device-pixel-ratio : 2) and (display-mode: standalone) {
+  @include bottomSafeAreaFix()
+}
+@media only screen and (min-device-width : 414px) and (max-device-height : 896px) and (-webkit-device-pixel-ratio : 2) and (display-mode: browser) {
+  @include bottomSafeAreaFixBrowser()
+}
+    
+@media only screen and (min-device-width : 414px) and (max-device-height : 896px) and (-webkit-device-pixel-ratio : 3) and (display-mode: standalone) {
+  @include bottomSafeAreaFix()
+}
+@media only screen and (min-device-width : 414px) and (max-device-height : 896px) and (-webkit-device-pixel-ratio : 3) and (display-mode: browser) {
+  @include bottomSafeAreaFixBrowser()
+}
+
+@media only screen and (min-device-width : 428px) and (max-device-height : 926px) and (-webkit-device-pixel-ratio : 3) and (display-mode: standalone) {
+  @include bottomSafeAreaFix()
+}
+@media only screen and (min-device-width : 428px) and (max-device-height : 926px) and (-webkit-device-pixel-ratio : 3) and (display-mode: browser) {
+  @include bottomSafeAreaFixBrowser()
 }
