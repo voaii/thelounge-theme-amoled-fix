@@ -383,6 +383,15 @@ pre {
     padding-bottom:40px;
   }
   #form:focus-within {
-      margin-bottom: -33px;
+      padding-bottom: 7px;
+  }
+  #chat.time-12h .time,
+  #chat.time-seconds .time {
+      font-size: 0.80em;
+  }
+  #chat .messages,
+  #chat .msg:last-of-type {
+    padding-bottom: 40px;
+    margin-bottom: 40px;
   }
 }
