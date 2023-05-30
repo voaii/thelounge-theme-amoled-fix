@@ -382,17 +382,8 @@ pre {
   #form {
     padding-bottom:40px;
   }
-  #form:focus-within {
-      padding-bottom: 7px;
-  }
   #chat.time-12h .time,
   #chat.time-seconds .time {
       font-size: 0.80em;
-  }
-  .window#chat-container:focus-within #chat .msg:last-of-type {
-    padding-bottom: 20px;
-  }
-  #chat .msg:last-of-type {
-    padding-bottom: 40px;
   }
 }
