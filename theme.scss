@@ -389,12 +389,8 @@ body #chat .toggle-content .thumb {
   }
 }
 @mixin bottomSafeAreaFix {
-
   #app {
     padding-bottom: 30px;
-  }
-  #app:focus-within {
-    padding-bottom: 0;
   }
 }
 
@@ -404,9 +400,6 @@ body #chat .toggle-content .thumb {
   }
   #app {
     padding-bottom: 30px;
-  }
-  #app:focus-within {
-    padding-bottom: 0;
   }
 }
 
