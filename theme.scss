@@ -11,6 +11,7 @@
   --link-color: #3498db;
   --window-bg-color: #1c1d21;
   --window-heading-color: #6c797a;
+  --placeholder-color: #3d3d3d
   --date-marker-color: var(--button-color);
   --unread-marker-color: var(--button-color);
   --highlight-bg-color: var(--border-color);
@@ -349,6 +350,13 @@ pre {
 .textcomplete-menu .active,
 #chat .userlist .user.active {
   background-color: rgba(255, 255, 255, 0.1);
+}
+#form {
+    background: #18191c;
+    border-top: 1px solid #212226;
+}
+#form #input::placeholder {
+  color: var(--placeholder-color)
 }
 @media (min-width: 480px) {
   #chat .from {
