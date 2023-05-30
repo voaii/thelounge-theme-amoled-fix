@@ -287,6 +287,13 @@ pre {
 #form #input::placeholder {
   color: var(--placeholder-color); }
 
+.textcomplete-menu {
+  background: #18191c;
+  opacity: 1; }
+
+.textcomplete-menu li {
+  color: var(--body-color); }
+
 @media (min-width: 480px) {
   #chat .from {
     width: 90px; }
