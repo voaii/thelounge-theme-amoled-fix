@@ -389,6 +389,9 @@ pre {
   #chat.time-seconds .time {
       font-size: 0.80em;
   }
+  .window#chat-container:not(:focus-within) #chat .msg:last-of-type {
+    padding-bottom: 10px;
+  }
   #chat .msg:last-of-type {
     padding-bottom: 40px;
   }
