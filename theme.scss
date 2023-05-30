@@ -378,6 +378,10 @@ body #chat .toggle-content .thumb {
   #chat {
       margin-bottom: 25px;
   }
+  #chat.time-12h .time,
+  #chat.time-seconds .time {
+      font-size: 0.77em;
+  }
 }
 @media (min-width: 480px) {
   #chat .from {
