@@ -375,9 +375,7 @@ body #chat .toggle-content .thumb {
     max-height: 300px;
 } 
 @media(max-width: 680px) {
-  #chat {
-      margin-bottom: calc(30% - 100px);
-  }
+
   #chat.time-12h .time,
   #chat.time-seconds .time {
       font-size: 0.77em;
@@ -404,8 +402,8 @@ body #chat .toggle-content .thumb {
     padding-bottom: 0;
   }
   #chat .msg:last-of-type {
-    margin-bottom: 10px;
-    padding-bottom: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
   }
 }
 
@@ -420,8 +418,8 @@ body #chat .toggle-content .thumb {
     padding-bottom: 0;
   }
   #chat .msg:last-of-type {
-    margin-bottom: 10px;
-    padding-bottom: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
   }
 }
 
