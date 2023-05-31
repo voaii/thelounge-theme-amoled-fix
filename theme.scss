@@ -395,15 +395,34 @@ body #chat .toggle-content .thumb {
   }
 }
 @mixin bottomSafeAreaFix {
+  html, body, #viewport, #chat-container {
+    height: 100vh;
+  }
   #app {
     padding-bottom: 30px;
   }
   #app:focus-within {
     padding-bottom: 0;
   }
+  #chat {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 100%;
+    position: relative;
+  }
+
   #chat .msg:last-of-type {
-    margin-bottom: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 2vh; /* 2% of the viewport height */
+  }
+
+  #chat .msg:last-of-type::after {
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
   }
 }
 
@@ -417,9 +436,25 @@ body #chat .toggle-content .thumb {
   #app:focus-within {
     padding-bottom: 0;
   }
+  #chat {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 100%;
+    position: relative;
+  }
+
   #chat .msg:last-of-type {
-    margin-bottom: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 2vh; /* 2% of the viewport height */
+  }
+
+  #chat .msg:last-of-type::after {
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
   }
 }
 
