@@ -403,7 +403,7 @@ body #chat .toggle-content .thumb {
   #app:focus-within {
     padding-bottom: 0;
   }
-  #chat .msg:last-of-type {
+  #chat .msg:not(:focus-within):last-of-type {
     margin-bottom: 10px;
     padding-bottom: 10px;
   }
@@ -419,7 +419,7 @@ body #chat .toggle-content .thumb {
   #app:focus-within {
     padding-bottom: 0;
   }
-  #chat .msg:last-of-type {
+  #chat .msg:not(:focus-within):last-of-type {
     margin-bottom: 10px;
     padding-bottom: 10px;
   }
