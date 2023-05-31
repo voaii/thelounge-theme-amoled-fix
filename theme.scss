@@ -398,14 +398,15 @@ body #chat .toggle-content .thumb {
   html, body, #viewport, #chat-container {
     height: 100vh;
   }
-  #chat-container {
+  #app {
     padding-bottom: 30px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     min-height: 100%;
+    margin-top: 30px;
   }
-  #chat-container:focus-within {
+  #app:focus-within {
     padding-bottom: 0;
   }
   #chat {
@@ -433,14 +434,15 @@ body #chat .toggle-content .thumb {
   html, body, #viewport, #chat-container {
     height: 100vh;
   }
-  #chat-container {
+  #app {
     padding-bottom: 30px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     min-height: 100%;
+    margin-top: 30px;
   }
-  #chat-container:focus-within {
+  #app:focus-within {
     padding-bottom: 0;
   }
   #chat {
