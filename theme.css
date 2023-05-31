@@ -324,8 +324,8 @@ body #chat .toggle-content .thumb {
   #app:focus-within {
     padding-bottom: 0; }
   #chat .msg:last-of-type {
-    margin-bottom: 15px;
-    padding-bottom: 15px; } }
+    margin-bottom: 20px;
+    padding-bottom: 20px; } }
 
 @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (display-mode: browser) {
   html, body, #viewport, #chat-container {
@@ -335,8 +335,8 @@ body #chat .toggle-content .thumb {
   #app:focus-within {
     padding-bottom: 0; }
   #chat .msg:last-of-type {
-    margin-bottom: 15px;
-    padding-bottom: 15px; } }
+    margin-bottom: 20px;
+    padding-bottom: 20px; } }
 
 @media only screen and (min-device-width: 390px) and (max-device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (display-mode: standalone) {
   #app {
@@ -344,8 +344,8 @@ body #chat .toggle-content .thumb {
   #app:focus-within {
     padding-bottom: 0; }
   #chat .msg:last-of-type {
-    margin-bottom: 15px;
-    padding-bottom: 15px; } }
+    margin-bottom: 20px;
+    padding-bottom: 20px; } }
 
 @media only screen and (min-device-width: 390px) and (max-device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (display-mode: browser) {
   html, body, #viewport, #chat-container {
@@ -355,8 +355,8 @@ body #chat .toggle-content .thumb {
   #app:focus-within {
     padding-bottom: 0; }
   #chat .msg:last-of-type {
-    margin-bottom: 15px;
-    padding-bottom: 15px; } }
+    margin-bottom: 20px;
+    padding-bottom: 20px; } }
 
 @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (display-mode: standalone) {
   #app {
@@ -364,8 +364,8 @@ body #chat .toggle-content .thumb {
   #app:focus-within {
     padding-bottom: 0; }
   #chat .msg:last-of-type {
-    margin-bottom: 15px;
-    padding-bottom: 15px; } }
+    margin-bottom: 20px;
+    padding-bottom: 20px; } }
 
 @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (display-mode: browser) {
   html, body, #viewport, #chat-container {
@@ -375,8 +375,8 @@ body #chat .toggle-content .thumb {
   #app:focus-within {
     padding-bottom: 0; }
   #chat .msg:last-of-type {
-    margin-bottom: 15px;
-    padding-bottom: 15px; } }
+    margin-bottom: 20px;
+    padding-bottom: 20px; } }
 
 @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (display-mode: standalone) {
   #app {
@@ -384,8 +384,8 @@ body #chat .toggle-content .thumb {
   #app:focus-within {
     padding-bottom: 0; }
   #chat .msg:last-of-type {
-    margin-bottom: 15px;
-    padding-bottom: 15px; } }
+    margin-bottom: 20px;
+    padding-bottom: 20px; } }
 
 @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (display-mode: browser) {
   html, body, #viewport, #chat-container {
@@ -395,8 +395,8 @@ body #chat .toggle-content .thumb {
   #app:focus-within {
     padding-bottom: 0; }
   #chat .msg:last-of-type {
-    margin-bottom: 15px;
-    padding-bottom: 15px; } }
+    margin-bottom: 20px;
+    padding-bottom: 20px; } }
 
 @media only screen and (min-device-width: 428px) and (max-device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (display-mode: standalone) {
   #app {
@@ -404,8 +404,8 @@ body #chat .toggle-content .thumb {
   #app:focus-within {
     padding-bottom: 0; }
   #chat .msg:last-of-type {
-    margin-bottom: 15px;
-    padding-bottom: 15px; } }
+    margin-bottom: 20px;
+    padding-bottom: 20px; } }
 
 @media only screen and (min-device-width: 428px) and (max-device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (display-mode: browser) {
   html, body, #viewport, #chat-container {
@@ -415,5 +415,5 @@ body #chat .toggle-content .thumb {
   #app:focus-within {
     padding-bottom: 0; }
   #chat .msg:last-of-type {
-    margin-bottom: 15px;
-    padding-bottom: 15px; } }
+    margin-bottom: 20px;
+    padding-bottom: 20px; } }
