@@ -1,6 +1,6 @@
 {
   "name": "thelounge-theme-amoled-fix",
-  "version": "1.3.9",
+  "version": "1.4.0",
   "description": "Easier on the eyes version of the Amoled theme",
   "main": "package.json",
   "scripts": {
