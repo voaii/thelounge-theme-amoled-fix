@@ -403,6 +403,10 @@ body #chat .toggle-content .thumb {
   #app:focus-within {
     padding-bottom: 0;
   }
+  #chat .msg:last-of-type {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
 }
 
 @mixin bottomSafeAreaFixBrowser {
@@ -414,6 +418,10 @@ body #chat .toggle-content .thumb {
   }
   #app:focus-within {
     padding-bottom: 0;
+  }
+  #chat .msg:last-of-type {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
   }
 }
 
