@@ -392,38 +392,20 @@ body #chat .toggle-content .thumb {
   }
 }
 @mixin bottomSafeAreaFix {
-  html, body, #viewport, #chat-container {
-    height: 100vh;
-  }
   #form {
     margin-bottom: 30px;
   }
   #form:focus-within {
     margin-bottom: 0;
-  }
-  #chat .chat {
-    display: block;
-  }
-  #chat .chat-content {
-      flex-direction: column;
   }
 }
 
 @mixin bottomSafeAreaFixBrowser {
-  html, body, #viewport, #chat-container {
-    height: 100vh;
-  }
   #form {
     margin-bottom: 30px;
   }
   #form:focus-within {
     margin-bottom: 0;
-  }
-  #chat .chat {
-    display: block;
-  }
-  #chat .chat-content {
-      flex-direction: column;
   }
 }
 
