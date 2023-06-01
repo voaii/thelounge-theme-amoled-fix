@@ -393,19 +393,19 @@ body #chat .toggle-content .thumb {
 }
 @mixin bottomSafeAreaFix {
   #form {
-    padding-bottom: 30px;
+    margin-bottom: 30px;
   }
   #form:focus-within {
-    padding-bottom: 0;
+    margin-bottom: 0;
   }
 }
 
 @mixin bottomSafeAreaFixBrowser {
   #form {
-    padding-bottom: 30px;
+    margin-bottom: 30px;
   }
   #form:focus-within {
-    padding-bottom: 0;
+    margin-bottom: 0;
   }
 }
 
