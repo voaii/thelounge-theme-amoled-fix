@@ -392,32 +392,20 @@ body #chat .toggle-content .thumb {
   }
 }
 @mixin bottomSafeAreaFix {
-  #chat-container {
+  #form {
     padding-bottom: 30px;
   }
-  #chat-container:focus-within {
+  #form:focus-within {
     padding-bottom: 0;
-  }
-  #chat-container:not(:focus-within) #chat .msg:last-of-type:after {
-      display: block;
-      content: " ";
-      width: 100%;
-      height: 30px;
   }
 }
 
 @mixin bottomSafeAreaFixBrowser {
-  #chat-container {
+  #form {
     padding-bottom: 30px;
   }
-  #chat-container:focus-within {
+  #form:focus-within {
     padding-bottom: 0;
-  }
-  #chat-container:not(:focus-within) #chat .msg:last-of-type:after {
-      display: block;
-      content: " ";
-      width: 100%;
-      height: 30px;
   }
 }
 
