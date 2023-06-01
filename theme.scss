@@ -399,11 +399,9 @@ body #chat .toggle-content .thumb {
     height: 100vh;
   }
   #form {
-    padding-bottom: 30px;
+    margin-bottom: 30px;
     display: flex;
-    flex-direction: column;
     justify-content: flex-end;
-    min-height: 100%;
   }
   #form:focus-within {
     padding-bottom: 0;
@@ -421,11 +419,9 @@ body #chat .toggle-content .thumb {
     height: 100vh;
   }
   #form {
-    padding-bottom: 30px;
+    margin-bottom: 30px;
     display: flex;
-    flex-direction: column;
     justify-content: flex-end;
-    min-height: 100%;
   }
   #form:focus-within {
     padding-bottom: 0;
