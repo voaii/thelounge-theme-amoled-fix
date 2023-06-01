@@ -392,21 +392,11 @@ body #chat .toggle-content .thumb {
   }
 }
 @mixin bottomSafeAreaFix {
-  #form {
-    margin-bottom: env(safe-area-inset-bottom);
-  }
-  #form:focus-within {
-    margin-bottom: 0;
-  }
+
 }
 
 @mixin bottomSafeAreaFixBrowser {
-  #form {
-    margin-bottom: env(safe-area-inset-bottom);
-  }
-  #form:focus-within {
-    margin-bottom: 0;
-  }
+
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (display-mode: standalone) {
