@@ -397,20 +397,15 @@ body #chat .toggle-content .thumb {
   }
   #form {
     margin-bottom: 30px;
-    display: flex;
-    justify-content: flex-end;
   }
   #form:focus-within {
     margin-bottom: 0;
   }
-  #chat {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
+  #chat .chat {
+    display: block;
   }
-  #chat .msg:last-of-type {
-      margin-bottom: 10px;
+  #chat .chat-content {
+      flex-direction: column;
   }
 }
 
@@ -420,20 +415,15 @@ body #chat .toggle-content .thumb {
   }
   #form {
     margin-bottom: 30px;
-    display: flex;
-    justify-content: flex-end;
   }
   #form:focus-within {
     margin-bottom: 0;
   }
-  #chat {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
+  #chat .chat {
+    display: block;
   }
-  #chat .msg:last-of-type {
-      margin-bottom: 10px;
+  #chat .chat-content {
+      flex-direction: column;
   }
 }
 
