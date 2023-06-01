@@ -398,11 +398,6 @@ body #chat .toggle-content .thumb {
   html, body, #viewport, #chat-container {
     height: 100vh;
   }
-  #chat,
-  #sidebar,
-  #settings {
-    margin-top: 30px;
-  }
   #app {
     padding-bottom: 30px;
     display: flex;
@@ -437,11 +432,6 @@ body #chat .toggle-content .thumb {
 @mixin bottomSafeAreaFixBrowser {
   html, body, #viewport, #chat-container {
     height: 100vh;
-  }
-  #chat,
-  #sidebar,
-  #settings {
-    margin-top: 30px;
   }
   #app {
     padding-bottom: 30px;
