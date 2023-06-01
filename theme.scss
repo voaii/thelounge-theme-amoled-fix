@@ -398,14 +398,14 @@ body #chat .toggle-content .thumb {
   html, body, #viewport, #chat-container {
     height: 100vh;
   }
-  #app {
+  #form {
     padding-bottom: 30px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     min-height: 100%;
   }
-  #app:focus-within {
+  #form:focus-within {
     padding-bottom: 0;
   }
   #chat {
@@ -413,19 +413,6 @@ body #chat .toggle-content .thumb {
     flex-direction: column;
     justify-content: flex-end;
     position: relative;
-  }
-
-  #chat .msg:last-of-type {
-    padding-bottom: 2vh; /* 2% of the viewport height */
-  }
-
-  #chat .msg:last-of-type::after {
-    content: '';
-    display: block;
-    height: 100%;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
   }
 }
 
@@ -433,14 +420,14 @@ body #chat .toggle-content .thumb {
   html, body, #viewport, #chat-container {
     height: 100vh;
   }
-  #app {
+  #form {
     padding-bottom: 30px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     min-height: 100%;
   }
-  #app:focus-within {
+  #form:focus-within {
     padding-bottom: 0;
   }
   #chat {
@@ -448,19 +435,6 @@ body #chat .toggle-content .thumb {
     flex-direction: column;
     justify-content: flex-end;
     position: relative;
-  }
-
-  #chat .msg:last-of-type {
-    padding-bottom: 2vh; /* 2% of the viewport height */
-  }
-
-  #chat .msg:last-of-type::after {
-    content: '';
-    display: block;
-    height: 100%;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
   }
 }
 
