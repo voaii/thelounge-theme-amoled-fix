@@ -317,9 +317,9 @@ body #chat .toggle-content .thumb {
 
 @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (display-mode: standalone) {
   #chat-container {
-    margin-bottom: 30px; }
+    padding-bottom: 30px; }
   #chat-container:focus-within {
-    margin-bottom: 0; }
+    padding-bottom: 0; }
   #chat-container:not(:focus-within) #chat .msg:last-of-type:after {
     display: block;
     content: " ";
@@ -328,9 +328,9 @@ body #chat .toggle-content .thumb {
 
 @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (display-mode: browser) {
   #chat-container {
-    margin-bottom: 30px; }
+    padding-bottom: 30px; }
   #chat-container:focus-within {
-    margin-bottom: 0; }
+    padding-bottom: 0; }
   #chat-container:not(:focus-within) #chat .msg:last-of-type:after {
     display: block;
     content: " ";
@@ -339,9 +339,9 @@ body #chat .toggle-content .thumb {
 
 @media only screen and (min-device-width: 390px) and (max-device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (display-mode: standalone) {
   #chat-container {
-    margin-bottom: 30px; }
+    padding-bottom: 30px; }
   #chat-container:focus-within {
-    margin-bottom: 0; }
+    padding-bottom: 0; }
   #chat-container:not(:focus-within) #chat .msg:last-of-type:after {
     display: block;
     content: " ";
@@ -350,9 +350,9 @@ body #chat .toggle-content .thumb {
 
 @media only screen and (min-device-width: 390px) and (max-device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (display-mode: browser) {
   #chat-container {
-    margin-bottom: 30px; }
+    padding-bottom: 30px; }
   #chat-container:focus-within {
-    margin-bottom: 0; }
+    padding-bottom: 0; }
   #chat-container:not(:focus-within) #chat .msg:last-of-type:after {
     display: block;
     content: " ";
@@ -361,9 +361,9 @@ body #chat .toggle-content .thumb {
 
 @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (display-mode: standalone) {
   #chat-container {
-    margin-bottom: 30px; }
+    padding-bottom: 30px; }
   #chat-container:focus-within {
-    margin-bottom: 0; }
+    padding-bottom: 0; }
   #chat-container:not(:focus-within) #chat .msg:last-of-type:after {
     display: block;
     content: " ";
@@ -372,9 +372,9 @@ body #chat .toggle-content .thumb {
 
 @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (display-mode: browser) {
   #chat-container {
-    margin-bottom: 30px; }
+    padding-bottom: 30px; }
   #chat-container:focus-within {
-    margin-bottom: 0; }
+    padding-bottom: 0; }
   #chat-container:not(:focus-within) #chat .msg:last-of-type:after {
     display: block;
     content: " ";
@@ -383,9 +383,9 @@ body #chat .toggle-content .thumb {
 
 @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (display-mode: standalone) {
   #chat-container {
-    margin-bottom: 30px; }
+    padding-bottom: 30px; }
   #chat-container:focus-within {
-    margin-bottom: 0; }
+    padding-bottom: 0; }
   #chat-container:not(:focus-within) #chat .msg:last-of-type:after {
     display: block;
     content: " ";
@@ -394,9 +394,9 @@ body #chat .toggle-content .thumb {
 
 @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (display-mode: browser) {
   #chat-container {
-    margin-bottom: 30px; }
+    padding-bottom: 30px; }
   #chat-container:focus-within {
-    margin-bottom: 0; }
+    padding-bottom: 0; }
   #chat-container:not(:focus-within) #chat .msg:last-of-type:after {
     display: block;
     content: " ";
@@ -405,9 +405,9 @@ body #chat .toggle-content .thumb {
 
 @media only screen and (min-device-width: 428px) and (max-device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (display-mode: standalone) {
   #chat-container {
-    margin-bottom: 30px; }
+    padding-bottom: 30px; }
   #chat-container:focus-within {
-    margin-bottom: 0; }
+    padding-bottom: 0; }
   #chat-container:not(:focus-within) #chat .msg:last-of-type:after {
     display: block;
     content: " ";
@@ -416,9 +416,9 @@ body #chat .toggle-content .thumb {
 
 @media only screen and (min-device-width: 428px) and (max-device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (display-mode: browser) {
   #chat-container {
-    margin-bottom: 30px; }
+    padding-bottom: 30px; }
   #chat-container:focus-within {
-    margin-bottom: 0; }
+    padding-bottom: 0; }
   #chat-container:not(:focus-within) #chat .msg:last-of-type:after {
     display: block;
     content: " ";

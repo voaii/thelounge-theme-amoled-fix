@@ -393,10 +393,10 @@ body #chat .toggle-content .thumb {
 }
 @mixin bottomSafeAreaFix {
   #chat-container {
-    margin-bottom: 30px;
+    padding-bottom: 30px;
   }
   #chat-container:focus-within {
-    margin-bottom: 0;
+    padding-bottom: 0;
   }
   #chat-container:not(:focus-within) #chat .msg:last-of-type:after {
       display: block;
@@ -408,10 +408,10 @@ body #chat .toggle-content .thumb {
 
 @mixin bottomSafeAreaFixBrowser {
   #chat-container {
-    margin-bottom: 30px;
+    padding-bottom: 30px;
   }
   #chat-container:focus-within {
-    margin-bottom: 0;
+    padding-bottom: 0;
   }
   #chat-container:not(:focus-within) #chat .msg:last-of-type:after {
       display: block;
