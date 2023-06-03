@@ -392,13 +392,33 @@ body #chat .toggle-content .thumb {
   }
 }
 @mixin bottomSafeAreaFix {
-
+  #form {
+      margin-bottom: 30px;
+  }
+  footer#footer {
+      margin-bottom: 30px;
+  }
+  #chat .content {
+      border-left: none;
+  }
 }
 
 @mixin bottomSafeAreaFixBrowser {
-
+  #form {
+      margin-bottom: 30px;
+  }
+  footer#footer {
+      margin-bottom: 30px;
+  }
+  #chat .content {
+      border-left: none;
+  }
+  .focused {
+    margin-bottom: -30px;
+  }
 }
 
+/* iphone X , XS, 11 Pro, 12 Mini */
 @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (display-mode: standalone) {
   @include bottomSafeAreaFix()
 }
@@ -406,6 +426,7 @@ body #chat .toggle-content .thumb {
   @include bottomSafeAreaFixBrowser()
 }
 
+/* iphone 12, 12 Pro */
 @media only screen and (min-device-width: 390px) and (max-device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (display-mode: standalone) {
   @include bottomSafeAreaFix()
 }
@@ -413,6 +434,7 @@ body #chat .toggle-content .thumb {
   @include bottomSafeAreaFixBrowser()
 }
 
+/* iphone XR, 11 */
 @media only screen and (min-device-width : 414px) and (max-device-height : 896px) and (-webkit-device-pixel-ratio : 2) and (display-mode: standalone) {
   @include bottomSafeAreaFix()
 }
@@ -420,6 +442,7 @@ body #chat .toggle-content .thumb {
   @include bottomSafeAreaFixBrowser()
 }
     
+/* iphone XS Max, 11 Pro Max */
 @media only screen and (min-device-width : 414px) and (max-device-height : 896px) and (-webkit-device-pixel-ratio : 3) and (display-mode: standalone) {
   @include bottomSafeAreaFix()
 }
@@ -427,6 +450,7 @@ body #chat .toggle-content .thumb {
   @include bottomSafeAreaFixBrowser()
 }
 
+/* iphone 12 Pro Max */
 @media only screen and (min-device-width : 428px) and (max-device-height : 926px) and (-webkit-device-pixel-ratio : 3) and (display-mode: standalone) {
   @include bottomSafeAreaFix()
 }

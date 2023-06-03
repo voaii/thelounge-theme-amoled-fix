@@ -11,6 +11,9 @@
   "thelounge": {
     "name": "Amoled Fix",
     "type": "theme",
+    "files": [
+        "theme.js"
+      ],
     "css": "theme.css",
     "themeColor": "#1c1d21"
   },
