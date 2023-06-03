@@ -83,7 +83,6 @@ a:visited {
 }
 
 form.message-search input {
-  background: inherit;
   color: inherit;
 }
 
@@ -92,9 +91,29 @@ form.message-search input::placeholder {
 }
 
 #form {
-  background: inherit;
   color: var(--body-color);
-  border-top: 1px solid transparent;
+}
+
+#form {
+    border-top: 0;
+    padding: 10px;
+    margin: 0 10px 10px 10px;
+}
+#form::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: " ";
+    z-index: 1;
+    border-radius: 10px;
+    background: #161719;
+}
+@media(max-width: 480px) {
+    #form::before {
+        border-radius: 80px;
+    }
 }
 
 .jump-to-input .input {
@@ -121,7 +140,6 @@ form.message-search input::placeholder {
 #chat .msg[data-type="monospace_block"] .text,
 #chat .toggle-content,
 #form #nick {
-  background: var(--body-bg-color-light);
   color: var(--body-color);
 }
 
@@ -351,10 +369,7 @@ pre {
 #chat .userlist .user.active {
   background-color: rgba(255, 255, 255, 0.1);
 }
-#form {
-    background: #161719;
-    border-top: 1px solid transparent;
-}
+
 #form #input::placeholder {
   color: var(--placeholder-color)
 }
@@ -390,6 +405,11 @@ body #chat .toggle-content .thumb {
       width: 60px;
       font-size: 0.77em;
   }
+}
+@media(max-width: 480px) {
+    #form::before {
+        border-radius: 80px;
+    }
 }
 @mixin bottomSafeAreaFix {
 
