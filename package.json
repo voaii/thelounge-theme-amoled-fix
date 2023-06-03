@@ -1,6 +1,6 @@
 {
   "name": "thelounge-theme-amoled-fix",
-  "version": "1.9.9",
+  "version": "2.0.0",
   "description": "Easier on the eyes version of the Amoled theme",
   "main": "package.json",
   "scripts": {
@@ -12,8 +12,8 @@
     "name": "Amoled Fix",
     "type": "theme",
     "files": [
-        "theme.js"
-      ],
+      "theme.js"
+    ],
     "css": "theme.css",
     "themeColor": "#1c1d21"
   },
