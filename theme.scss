@@ -145,6 +145,13 @@ form.message-search input::placeholder {
   font-weight: 500;
 }
 
+span.content .user {
+    color: #c9cdfb!important;
+    background: #5865f24c;
+    border-radius: 3px;
+    padding: 0 2px;
+}
+
 #chat .msg[data-type="monospace_block"] .text,
 #chat .toggle-content,
 #form #nick {
@@ -394,6 +401,9 @@ body #chat .toggle-content .thumb {
 #chat .toggle-content img {
     max-height: 300px;
 } 
+#chat .chat-view[data-type=channel] .msg.highlight .time {
+  color: #c5cadf;
+}
 @media(max-width: 680px) {
 
   #chat.time-12h .time,
