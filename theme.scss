@@ -1,11 +1,11 @@
 :root {
-  --body-color: #ced0d9;
+  --body-color: #c5cadf;
   --body-color-muted: #b6b8c0;
   --border-color: #2b2c33;
   --body-bg-color: #202126;
   --body-bg-color-light: #292a30;
   --button-color: #2980b9;
-  --button-color-muted: #b8bed8;
+  --button-color-muted: #a8acc2;
   --button-text-color-hover: #fff;
   --overlay-bg-color: rgba(0, 0, 0, 0.5);
   --link-color: #00a8fc;
@@ -110,8 +110,11 @@ form.message-search input::placeholder {
   #form::before {
     background: #2b2c33;
   }
+  div form #form #input::placeholder,
+  form #form #input::placeholder,
+  form #form textarea #input::placeholder,
   #form #input::placeholder {
-    color: #606274
+    color: #606274;
   }
 }
 #form #input {
