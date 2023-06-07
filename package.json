@@ -12,7 +12,7 @@
     "name": "Amoled Fix",
     "type": "theme",
     "css": "theme.css",
-    "themeColor": "#1c1d21"
+    "themeColor": "#202126"
   },
   "license": "MIT",
   "homepage": "https://github.com/voaii/thelounge-theme-amoled-fix",
