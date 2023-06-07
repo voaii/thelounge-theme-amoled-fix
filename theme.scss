@@ -106,6 +106,14 @@ form.message-search input::placeholder {
     border-radius: 10px;
     background: #161719;
 }
+@media(min-width: 680px) {
+  #form::before {
+    background: #2b2c33;
+  }
+  #form #input::placeholder {
+    color: #606274
+  }
+}
 #form #input {
     margin: 0;
     padding: 0px 10px;
