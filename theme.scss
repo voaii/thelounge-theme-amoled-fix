@@ -140,6 +140,11 @@ form.message-search input::placeholder {
   background: inherit;
 }
 
+#chat .user {
+  font-weight: 600;
+  font-weight: 500;
+}
+
 #chat .msg[data-type="monospace_block"] .text,
 #chat .toggle-content,
 #form #nick {
@@ -416,7 +421,7 @@ body #chat .toggle-content .thumb {
     background: #18181c;
   }
   #form #input::placeholder  {
-    color: #555666;
+    color: #373844;
   }
 }
 @mixin bottomSafeAreaFix {
