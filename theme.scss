@@ -145,6 +145,10 @@ form.message-search input::placeholder {
   font-weight: 500;
 }
 
+#chat .self .content {
+  color: var(--body-color);
+}
+
 span.content .user {
     color: #c9cdfb!important;
     background: #5865f24c;
