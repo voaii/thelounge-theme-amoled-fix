@@ -442,7 +442,7 @@ body #chat .toggle-content .thumb {
 @media (max-width: 479px) {
   #chat .msg {
     display: block;
-    padding: 4px 10px;
+    padding: 4.2px 10px;
   }
 }
 @media (max-width: 768px) {
@@ -456,7 +456,7 @@ body #chat .toggle-content .thumb {
   .messages .msg,
   .textcomplete-menu,
   .window label {
-      font-size: 0.9em;
+      font-size: 0.93em;
   }
 }
 @mixin bottomSafeAreaFix {
