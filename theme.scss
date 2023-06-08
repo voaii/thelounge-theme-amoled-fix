@@ -408,6 +408,7 @@ body #chat .toggle-content .thumb {
 #chat .chat-view[data-type=channel] .msg.highlight .time {
   color: #c5cadf;
 }
+
 @media(max-width: 680px) {
 
   #chat.time-12h .time,
@@ -436,6 +437,26 @@ body #chat .toggle-content .thumb {
   }
   #form #input::placeholder  {
     color: #373844;
+  }
+}
+@media (max-width: 479px) {
+  #chat .msg {
+    display: block;
+    padding: 4px 10px;
+  }
+}
+@media (max-width: 768px) {
+  #context-menu,
+  #form #input,
+  #help .help-item,
+  #loading,
+  #settings .error,
+  #sidebar .empty, .channel-list-item,
+  .header .topic,
+  .messages .msg,
+  .textcomplete-menu,
+  .window label {
+      font-size: 0.9em;
   }
 }
 @mixin bottomSafeAreaFix {
