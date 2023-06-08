@@ -358,16 +358,3 @@ body #chat .toggle-content .thumb {
   #chat .msg {
     display: block;
     padding: 3.6px 10px; } }
-
-@media (max-width: 768px) {
-  #context-menu,
-  #form #input,
-  #help .help-item,
-  #loading,
-  #settings .error,
-  #sidebar .empty, .channel-list-item,
-  .header .topic,
-  .messages .msg,
-  .textcomplete-menu,
-  .window label {
-    font-size: 0.95em; } }
