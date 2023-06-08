@@ -357,7 +357,7 @@ body #chat .toggle-content .thumb {
 @media (max-width: 479px) {
   #chat .msg {
     display: block;
-    padding: 4px 10px; } }
+    padding: 3.6px 10px; } }
 
 @media (max-width: 768px) {
   #context-menu,
